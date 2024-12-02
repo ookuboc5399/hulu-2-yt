@@ -37,4 +37,7 @@ const Thumb = forwardRef(({ result }, ref) => {
   );
 });
 
+// displayNameを設定
+Thumb.displayName = "Thumb";
+
 export default Thumb;
